@@ -37,6 +37,10 @@ const [awayScore, initialScore1] = useState(0);
         <div className="awayButtons">
           <button onClick = {() => initialScore1(awayScore + 7)} className="awayButtons__touchdown">Away Touchdown</button>
           <button onClick = {() => initialScore1(awayScore + 3)} className="awayButtons__fieldGoal">Away Field Goal</button>
+          function reset() {
+            const [startScore, initialScore2] = useState(0);
+          }
+          {/* <button onClick = {() => setCount(0)}>Reset</button> */}
         </div>
       </section>
     </div>
